@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "Mauzo_backend": {
+      "declarations": {
+        "node_compatibility": true
+      },
+      "main": "src/Mauzo_backend/main.mo",
+      "type": "motoko"
+    },
+    "Mauzo_frontend": {
+      "dependencies": [
+        "Mauzo_backend"
+      ],
+      "source": [
+        "src/Mauzo_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Mauzo_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
