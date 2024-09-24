@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+body, button, select, a, div, span {
+  cursor: default; /* No text cursor blinking */
+}
+
+input, textarea {
+  cursor: text; /* Blinking text cursor for inputs */
+}
+
+button, a {
+  cursor: pointer; /* Hand cursor for clickable items */
+}
